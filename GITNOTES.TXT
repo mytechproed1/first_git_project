@@ -1,5 +1,7 @@
 ***CREATE A PROJECT : first_github_project
+---------------------------------------------------------------------------
 ***CREATE A GITHUB REPOSITORY:
+---------------------------------------------------------------------------
     *Pushing the code FOR THE FIRST TIME
     git init -> create .git folder in the project. do once for each project
     git add . -> add all of the code 
@@ -12,3 +14,6 @@
    `        - git add .
             - git commit -m "message"
             - git push
+----------------------------------------------------------------------------
+***GIT PULL:
+-git pull is used to get the latest code from github
