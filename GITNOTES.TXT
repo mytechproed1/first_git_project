@@ -17,3 +17,43 @@
 ----------------------------------------------------------------------------
 ***GIT PULL:
 -git pull is used to get the latest code from github
+---------------DAY 2---------------------------
+What do you remember from the last class?
+*What is GIT?
+    -local repository(folder/storage).
+    -version control tool
+    -git tracks and saves our local codes and create new versions.
+    -open source
+*What is GITHUB?
+    -Remote/Cloud repositories
+    -We store the new commits/versions in the remote repository
+    -Collabaration/Team Work with GITHUB
+    -GitHub is secure code storage
+        -We cannot PUSH if our LOCAL code is not UP TO DATE
+*Pushing the code for the first time ?
+ONLY ONCE FOR EACH NEW PROJECT git init 
+REPEATED                       git add .
+REPEATED                       git commit -m "first commit" 
+ONLY ONCE FOR EACH NEW PROJECT git branch -M main 
+ONLY ONCE FOR EACH NEW PROJECT git remote add origin https://github.com/USERNAME/RESITORYNAME.git -> linking local repo and remote repo.When I push code, code will go to yhis link
+ONLY ONCE FOR EACH NEW PROJECT git push -u origin main
+--------------------------------------
+NOTE:REPEATED PUSH REQUIRES    git push
+---------------------------------------
+*How to push the new codes going forward?
+git add .
+git commit -m "message"
+git push
+-----------
+*How do you pull the code from github to your local?
+git pull
+OR 
+git fetch + git merge
+*What is the difference between git pull and git merge?
+git pull does fetching and merging in one step
+but git merge will only does merging. we use use git merge after git fetch
+git pull = git fetch + git merge
+---------------
+GIT CONFLICT?
+-Conflict happens when we merge the code.
+
